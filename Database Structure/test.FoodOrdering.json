@@ -1,0 +1,74 @@
+[{
+  "_id": {
+    "$oid": "66ab1a131415329a1cdd33d3"
+  },
+  "orderId": "unique_order_id",
+  "userId": "unique_user_id",
+  "items": [
+    {
+      "itemId": "unique_item_id",
+      "quantity": 2,
+      "price": 10.99
+    }
+  ],
+  "totalAmount": 21.98,
+  "status": "Pending",
+  "createdAt": "timestamp",
+  "updatedAt": "timestamp",
+  "deliveryDate": "timestamp"
+},
+{
+  "_id": {
+    "$oid": "66ab683703615da8c2fb83e3"
+  },
+  "orderId": "unique_order_id",
+  "userId": "unique_user_id",
+  "items": [
+    {
+      "itemId": "unique_item_id",
+      "quantity": 2,
+      "price": 10.99
+    }
+  ],
+  "totalAmount": 21.98,
+  "status": "Pending",
+  "createdAt": "timestamp",
+  "updatedAt": "timestamp",
+  "deliveryDate": "timestamp"
+},
+{
+  "_id": {
+    "$oid": "66ab688303615da8c2fb83e4"
+  },
+  "cartId": "unique_cart_id",
+  "userId": "unique_user_id",
+  "items": [
+    {
+      "itemId": "unique_item_id",
+      "quantity": 2
+    }
+  ],
+  "createdAt": "timestamp",
+  "updatedAt": "timestamp"
+},
+{
+  "_id": {
+    "$oid": "66ab68e403615da8c2fb83e5"
+  },
+  "itemId": "unique_item_id",
+  "name": "Item Name",
+  "category": "Fruit",
+  "price": 10.99,
+  "stock": 50,
+  "imageUrl": "url_to_image"
+},
+{
+  "_id": {
+    "$oid": "66ab697203615da8c2fb83e6"
+  },
+  "userId": "unique_user_id",
+  "email": "user@example.com",
+  "passwordHash": "hashed_password",
+  "createdAt": "timestamp",
+  "updatedAt": "timestamp"
+}]
